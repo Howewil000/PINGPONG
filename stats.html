@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rankings</title>
+    <link rel="icon" href= "./photos/homeicon.png" type="image/x-icon">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f4f4f9;
+        }
+        h1 {
+            display: flex;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        h1 a {
+            text-decoration: none;
+            color: #2d87f0;
+            font-weight: bold;
+        }
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 1em;
+            min-width: 600px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        table th, table td {
+            padding: 12px 15px;
+            text-align: center;
+        }
+        table thead th {
+            background-color: #2d87f0;
+            color: #ffffff;
+            font-weight: bold;
+        }
+        table tbody tr:nth-child(even) {
+            background-color: #f3f3f3;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>
+        <a href="./index.html">Home</a>
+        <a href="./stats.html">Stats</a>
+    </h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Rank</th>
+                <th>Name</th>
+                <th>Win%</th>
+                <th>Percentile</th>
+                <th>Record</th>
+                <th>APD</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Jensen</td>
+                <td>90%</td>
+                <td>Top 1%</td>
+                <td>9-1</td>
+                <td>+7.54</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Will</td>
+                <td>82%</td>
+                <td>Top 5%</td>
+                <td>9-2</td>
+                <td>+5.43</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Ben</td>
+                <td>73%</td>
+                <td>Top 10%</td>
+                <td>8-3</td>
+                <td>+10</td>
+            </tr>
+            <!-- Add more rows as needed -->
+            <tr>
+                <td>4</td>
+                <td>Nick</td>
+                <td>73%</td>
+                <td>Top 12%</td>
+                <td>8-3</td>
+                <td>+3.4</td>
+            </tr>
+            <!-- Add more rows as needed -->
+        </tbody>
+    </table>
+
+</body>
+</html>
